@@ -1,6 +1,3 @@
-
-
-
 class FloatRange:
     def __init__(self, start, end, step=0.1):
         self.start = start
@@ -20,4 +17,4 @@ class FloatRange:
             t -= self.step
 
 for x in reversed(FloatRange(1.0, 4.0, 0.5)):
-    print x
+    print(x)

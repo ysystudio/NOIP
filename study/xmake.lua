@@ -1,6 +1,68 @@
+add_rules("mode.debug", "mode.release")
+
+target("study")
+    set_kind("static")
+    add_files("c++11.27.cpp")
+
+target("2.26")
+    set_kind("binary")
+    add_files("2.26.cpp")
+
+    add_deps("study")
+
 target("N016-bfs")
     set_kind("binary")
     add_files("N016-bfs.cpp")
+
+    add_deps("study")
+
+target("cin_test")
+    set_kind("binary")
+    add_files("cin_test.cpp")
+
+    add_deps("study")
+
+target("无标题1")
+    set_kind("binary")
+    add_files("无标题1.cpp")
+
+    add_deps("study")
+
+target("3.12")
+    set_kind("binary")
+    add_files("3.12.cpp")
+
+    add_deps("study")
+
+target("2.1之作业")
+    set_kind("binary")
+    add_files("2.1之作业.cpp")
+
+    add_deps("study")
+
+target("3.19")
+    set_kind("binary")
+    add_files("3.19.cpp")
+
+    add_deps("study")
+
+target("game1")
+    set_kind("binary")
+    add_files("game1.cpp")
+
+    add_deps("study")
+
+target("3.5")
+    set_kind("binary")
+    add_files("3.5.cpp")
+
+    add_deps("study")
+
+target("赶作业")
+    set_kind("binary")
+    add_files("赶作业.cpp")
+
+    add_deps("study")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io

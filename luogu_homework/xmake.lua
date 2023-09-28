@@ -1,3 +1,6 @@
+set_config("plat", "mingw")
+set_config("sdk", "C:/software/cppIDE/RedPanda-CPP/MinGW64")
+
 target("2022no9")
     set_kind("binary")
     add_files("2022no9.cpp")
